@@ -13,8 +13,9 @@ body {
 }
 
 section {
-    padding: 5.5rem 3.5rem;
-
+    padding-top: 8rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .right-section {

@@ -7,7 +7,7 @@ import humblemoji from "../../image/humble.png";
 
 const Service = () => {
   return (
-    <section id='service' className="lg:flex justify-between items-start text-center md:text-start h-screen mt-96 md:mt-10">
+    <section id='service' className="lg:flex justify-between items-start text-center md:text-start lg:mb-80">
       <div className="right-section md:w-96">
         <h2>
           {" "}
@@ -21,7 +21,7 @@ const Service = () => {
         <button className="btn">Download CV</button>
       </div>
 
-      <div className="lg:relative lg:flex block">
+      <div className="relative lg:flex block">
         <div className="lg:absolute top-[4rem] right-[25rem]">
           <ServiceCard
             emoji={heartemoji}
