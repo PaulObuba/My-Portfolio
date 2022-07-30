@@ -7,8 +7,8 @@ import humblemoji from "../../image/humble.png";
 
 const Service = () => {
   return (
-    <section id='service' className="lg:flex justify-between items-start text-center md:text-start lg:mb-80">
-      <div className="right-section md:w-96">
+    <section id='service' className="lg:flex justify-between items-start text-center md:text-start lg:mb-80 px-10">
+      <div className="right-section md:w-96 pl-10">
         <h2>
           {" "}
           My Awesome <br /> <span className="text-main"> Services </span>{" "}

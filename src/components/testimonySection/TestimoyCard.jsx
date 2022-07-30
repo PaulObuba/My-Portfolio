@@ -16,7 +16,7 @@ const TestimoyCard = () => {
         {datas.map((data, index) => {
           return (
             <SwiperSlide key={index}>
-              <div className="flex flex-col text-center justify-center items-center w-[40rem] border-8 border-main rounded-lg p-5 px-10">
+              <div className="flex flex-col text-center justify-center items-center w-[50rem] md:w-[35rem] border-8 border-main rounded-lg p-5 px-10">
                 <img src={data.image} alt="" className="w-28 rounded-full" />
                 <p>{data.testimony}</p>
                 <p className="mt-5">{data.name}</p>
