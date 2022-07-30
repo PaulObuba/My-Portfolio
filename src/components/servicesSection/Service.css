@@ -1,0 +1,26 @@
+.serviceCard {
+
+}
+
+.cards {
+    position: relative;
+}
+
+.cards > * {
+    position: absolute;
+}
+
+.card1 {
+    top: 4rem;
+    right: 25rem;
+}
+
+.card2 {
+    top: 16rem;
+    right: 5rem;
+}
+
+.card3 {
+    top: -5rem;
+    right: -2rem;
+}

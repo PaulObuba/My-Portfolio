@@ -1,0 +1,10 @@
+.hero {
+    height: calc(100vh - 80px);
+}
+
+.heroIcon {
+    color: #1BB6CB;
+    font-size: 3rem;
+    padding: 3px;
+    margin: auto;
+}

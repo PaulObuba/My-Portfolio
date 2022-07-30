@@ -1,0 +1,19 @@
+.footer {
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: center;
+   text-align: center;
+   background-image: url('../../image/footerImage.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   
+}
+
+.footerIcon {
+    color: white;
+    font-size: 3rem;
+    padding: 3px;
+    margin-right: 1rem;
+}

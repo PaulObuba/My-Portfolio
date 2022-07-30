@@ -1,0 +1,11 @@
+
+li {
+    padding: 2px;
+    margin: 0 12px;  
+}
+
+li:hover {
+    color: #1BB6CB;
+    cursor: pointer;
+    font-weight: bold;
+}
