@@ -1,7 +1,16 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./Contact.css";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Contact = () => {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <section id='contact' className="text-center md:text-start md:flex justify-between items-start gap-14">
       <div>
@@ -11,17 +20,17 @@ const Contact = () => {
       </div>
 
       <div className="text-black mx-auto">
-        <form className="lg:mr-40 flex flex-col items-center">
+        <form className="flex flex-col items-center m-auto w-60 md:w-80">
           <div>
-            <input type="text" name="name" id="name" placeholder="Name" />
+            <input type="text" name="name" id="name" placeholder="Name" data-aos="zoom-out-up" data-aos-duration="1000" />
           </div>
           <div>
-            <input type="email" name="email" id="email" placeholder="Email" />
+            <input type="email" name="email" id="email" placeholder="Email" data-aos="zoom-out-up" data-aos-duration="1000" />
           </div>
           <div>
-            <textarea placeholder="Message"></textarea>
+            <textarea placeholder="Message" className="" data-aos="zoom-out-up" data-aos-duration="1000"></textarea>
           </div>
-          <button className="btn my-4">Send</button>
+          <button className="btn my-4" data-aos="zoom-out-up" data-aos-duration="1000">Send</button>
         </form>
       </div>
     </section>
