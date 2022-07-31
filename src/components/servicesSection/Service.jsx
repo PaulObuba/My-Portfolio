@@ -24,9 +24,7 @@ const Service = () => {
           My Awesome <br /> <span className="text-main"> Services </span>{" "}
         </h2>
         <p className="mb-10">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora odit
-          ea corrupti autem sunt excepturi tenetur officia iusto exercitationem
-          ad.
+        I like to code things from scratch, and enjoy bringing ideas to life in the browser. I speak languages and use framework like:
         </p>
         <button className="btn">Download CV</button>
       </div>
@@ -42,7 +40,7 @@ const Service = () => {
           />
         </div>
 
-        <div className="lg:absolute top-[16rem] right-[6rem]" data-aos="fade-left" data-aos-duration="1000">
+        <div className="lg:absolute top-[16rem] right-[6rem]" data-aos="fade-up" data-aos-duration="1000">
           <ServiceCard
             emoji={humblemoji}
             title={"Developer"}
