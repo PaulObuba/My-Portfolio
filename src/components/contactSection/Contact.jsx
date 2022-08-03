@@ -46,7 +46,7 @@ const Contact = () => {
   }, []);
 
   return (
-    <section id='contact' className="text-center md:text-start md:flex justify-between items-start gap-14">
+    <section id='contact' className="text-center md:text-start md:flex justify-between items-start gap-14 md:px-24">
       <div>
         <h2 className="mb-10 md:text-5xl text-4xl">
           Get in touch. <br /> <span className="text-main">Contact me</span>

@@ -18,7 +18,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="text-center md:text-start md:flex justify-between items-center md:relative"
+      className="text-center md:text-start md:flex justify-between items-center md:relative md:px-24"
     >
       <div className="right-section md:w-[33rem]">
         <h1 className="font-bold text-6xl mb-5">
@@ -58,7 +58,7 @@ const Hero = () => {
         <img
           src={heroImage}
           alt=""
-          className="m-auto md:ml-10 w-[30rem] h-[27rem] rounded-2xl mb-10"
+          className="m-auto md:ml-10 w-full md:w-[30rem] h-full md:h-[27rem] rounded-2xl mb-10"
         />
         <div
           className=" text-gray-700 font-mono font-bold absolute top-[-2rem] right-[-2rem] md:top-[-1rem] md:right-[-3]"

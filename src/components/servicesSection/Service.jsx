@@ -18,14 +18,14 @@ const Service = () => {
   }, []);
 
   return (
-    <section id='service' className="lg:flex justify-between items-start text-center md:text-start lg:mb-80 px-10">
-      <div className="right-section md:w-96 pl-10">
+    <section id='service' className="lg:flex justify-between items-start text-center md:text-start lg:mb-80 md:px-24">
+      <div className="right-section md:w-96">
         <h2 className="md:text-5xl text-4xl lg:mb-5">
           {" "}
           My Awesome <br /> <span className="text-main text"> Services </span>{" "}
         </h2>
         <p className="mb-10 lg:mb-20 md:text-2xl">
-        I like to code things from scratch, and enjoy bringing ideas to life in the browser. I speak languages and use framework like:
+        I like to code things from scratch, and enjoy bringing ideas to life in the browser. I speak languages and use frameworks like:
         </p>
         <a href={Resume} download className="btn">Download CV</a>
       </div>
@@ -35,7 +35,7 @@ const Service = () => {
           <ServiceCard
             emoji={heartemoji}
             title={"Developer"}
-            skill={"HTML, CSS,Tailwind CSS, JavaScript, React, Next Js, Rest API"}
+            skill={"HTML, CSS, Tailwind CSS, JavaScript, React, Next Js, Rest API"}
             button={"Learn more"}
             className="serviceCard"
           />
