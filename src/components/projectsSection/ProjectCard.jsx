@@ -1,12 +1,12 @@
 import React from "react";
-import "./TestimonyCard.css";
-import datas from "./CardData";
+import "./ProjectCard.css";
+import datas from "./ProjectData";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
 import 'swiper/css/pagination';
 import 'swiper/css';
 
-const TestimoyCard = () => {
+const ProjectCard = () => {
   return (
     <div className="t-wrapper">
       <Swiper
@@ -27,4 +27,4 @@ const TestimoyCard = () => {
   );
 };
 
-export default TestimoyCard;
+export default ProjectCard;

@@ -5,8 +5,9 @@ import Contact from "./components/contactSection/Contact";
 import Footer from "./components/footerSection/Footer";
 import Hero from "./components/heroSection/Hero";
 import Navbar from "./components/navbarSection/Navbar";
+import Project from "./components/projectsSection/Project";
 import Service from "./components/servicesSection/Service";
-import Testimoy from "./components/testimonySection/Testimoy";
+
 
 function App() {
   const [theme, setTheme] = useState(false);
@@ -17,7 +18,8 @@ function App() {
         <Hero />
         <Service />
         <About />
-        <Testimoy />
+        <Project />
+        {/* <Testimoy /> */}
         <Contact />
         <Footer />
       </div>

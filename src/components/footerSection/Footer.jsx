@@ -5,7 +5,7 @@ import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 const Footer = () => {
   return (
     <section className="footer">
-      <a href="https://github.com/paulobuba" target="__blank" className="mt-16 mb-5 text-white ">
+      <a href="https://paulobuba26@gmail.com" target="__blank" className="mt-16 mb-5 text-white ">
         {" "}
         paulobuba26@gmail.com
       </a>
