@@ -80,7 +80,7 @@ const Navbar = ({ theme, setTheme }) => {
       </div>
 
       <div
-        className="md:hidden text-3xl p-3 cursor-pointer hover:text-main"
+        className="md:hidden text-3xl p-3 cursor-pointer hover:text-main z-50 right-5 absolute"
         onClick={() => handleToggle()}
       >
         <GoThreeBars />

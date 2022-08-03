@@ -31,7 +31,7 @@ const Hero = () => {
           requirements into outstanding, responsive and scalable websites - on
           time and on budget.
         </p>
-        <a href='#contact' className="btn mb-20 block w-[5.4rem] mx-auto md:mx-0">Hier me</a>
+        <a href='#contact' className="btn mb-20 block w-[5.4rem] mx-auto md:mx-0">Hire me</a>
         <div className="hidden md:flex justify-start items-center m-auto">
           <span className="heroIcon">
             <a href="https://github.com/paulobuba" target="__black">
@@ -58,7 +58,7 @@ const Hero = () => {
         <img
           src={heroImage}
           alt=""
-          className="m-auto md:ml-10 w-full md:w-[30rem] h-full md:h-[27rem] rounded-2xl mb-10"
+          className="m-auto md:ml-10 w-[30rem] md:w-[30rem] h-[30rem] md:h-[30rem] rounded-2xl mb-10"
         />
         <div
           className=" text-gray-700 font-mono font-bold absolute top-[-2rem] right-[-2rem] md:top-[-1rem] md:right-[-3]"

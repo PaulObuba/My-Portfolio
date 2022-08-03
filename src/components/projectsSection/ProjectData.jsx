@@ -7,6 +7,7 @@ const datas = [
   {
     id: 1,
     image: project1,
+    monve: 'https://vercel.com/paulobuba/movie-app',
   },
   {
     id: 2,
@@ -19,6 +20,7 @@ const datas = [
   {
     id: 2,
     image: project4,
+    move: 'https://vercel.com/paulobuba/photograph',
   },
 ];
 
