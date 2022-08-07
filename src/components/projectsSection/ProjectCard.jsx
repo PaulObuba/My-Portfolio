@@ -16,8 +16,8 @@ const ProjectCard = () => {
         {datas.map((data, index) => {
           return (
             <SwiperSlide key={index}>
-              <div className="lg:w-[55%] border-8 border-main rounded-xl m-auto w-[90%]">
-                <img src={data.image} alt='' className="w-full rounded" />
+              <div className="lg:w-[55%] border-8 border-main rounded-xl m-auto w-[90%]  ">
+                <img src={data.image} alt='' className="w-full rounded md:h-full h-80" />
               </div>
             </SwiperSlide>
           );

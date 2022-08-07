@@ -58,7 +58,7 @@ const Hero = () => {
         <img
           src={heroImage}
           alt=""
-          className="m-auto md:ml-10 w-[30rem] md:w-[30rem] h-[30rem] md:h-[30rem] rounded-2xl mb-10"
+          className="m-auto md:ml-10 w-[30rem] h-[30rem] rounded-2xl mb-10"
         />
         <div
           className=" text-gray-700 font-mono font-bold absolute top-[-2rem] right-[-2rem] md:top-[-1rem] md:right-[-3]"

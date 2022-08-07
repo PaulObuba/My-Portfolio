@@ -56,15 +56,15 @@ const Contact = () => {
       <div className="text-black mx-auto">
         <form id='form' name="contact" ref={form} onSubmit={sendEmail} className="flex flex-col items-center m-auto w-60 md:w-80">
           <div>
-            <input type="text" name="user_name" className="w-80" placeholder="Name" data-aos="zoom-out-up" data-aos-duration="1000" onChange={handlename} value={name} />
+            <input type="text" name="user_name" className="w-80" placeholder="Name" required data-aos="zoom-out-up" data-aos-duration="1000" onChange={handlename} value={name} />
           </div>
           <div>
-            <input type="email" name="user_email" className="w-80" placeholder="Email" data-aos="zoom-out-up" data-aos-duration="1000" onChange={handleemail} value={email} />
+            <input type="email" name="user_email" className="w-80" placeholder="Email" required data-aos="zoom-out-up" data-aos-duration="1000" onChange={handleemail} value={email} />
           </div>
           <div>
-            <textarea name="message" className="w-80" placeholder="Message" data-aos="zoom-out-up" data-aos-duration="1000" onChange={handletext} value={text} ></textarea>
+            <textarea name="message" className="w-80" placeholder="Message" required data-aos="zoom-out-up" data-aos-duration="1000" onChange={handletext} value={text} ></textarea>
           </div>
-          <button type='submit' className="btn my-4" data-aos="zoom-out-up" data-aos-duration="1000">Send</button>
+          <button type='submit' className="btn my-4" data-aos="zoom-out-up" required data-aos-duration="1000">Send</button>
         </form>
       </div>
     </section>
